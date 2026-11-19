@@ -1,8 +1,6 @@
 #pragma once
 #include <string>
 
-// Responsibility: a named spending/income label (e.g. "Rent", "Food")
-// that transactions and budgets are grouped by.
 class Category {
 private:
     int id;
