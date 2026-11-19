@@ -2,8 +2,6 @@
 #include "Category.h"
 #include "Account.h"
 
-// Responsibility: a monthly spending limit for one Category,
-// and checking whether spending has gone over it.
 class Budget {
 private:
     const Category* category;  // not owned
