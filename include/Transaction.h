@@ -2,8 +2,6 @@
 #include <string>
 #include "Category.h"
 
-// Responsibility: one income or expense entry. Holds its data only;
-// the Account that owns it decides how it affects the balance.
 class Transaction {
 private:
     int id;
