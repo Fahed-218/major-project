@@ -3,8 +3,6 @@
 #include <vector>
 #include "Transaction.h"
 
-// Responsibility: a money account (e.g. checking). Owns its transactions
-// and keeps the balance in sync with them.
 class Account {
 protected:
     std::string name;
