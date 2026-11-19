@@ -7,8 +7,6 @@
 #include "SavingsGoal.h"
 #include "FileStorage.h"
 
-// Responsibility: the top-level class. Owns all accounts, categories,
-// budgets and goals, and exposes the operations the menu/UI calls.
 class FinanceManager {
 private:
     std::vector<std::unique_ptr<Account>> accounts;
